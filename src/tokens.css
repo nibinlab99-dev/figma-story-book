@@ -1,6 +1,87 @@
-/* Design tokens will be injected here dynamically */
+/* Design tokens - Auto-generated from Figma via GitHub */
+/* Last updated: 2026-01-15T10:06:41.440Z */
+/* To update: run 'npm run tokens:generate' */
+
 :root {
-    /* Tokens loading... */
+    --base-blue-5: #fafcff;
+    --base-blue-10: #edf4fe;
+    --base-blue-20: #deebff;
+    --base-blue-30: #acccfb;
+    --base-blue-40: #4186ed;
+    --base-blue-50: #1369e9;
+    --base-blue-60: #1058c3;
+    --base-blue-70: #0d479d;
+    --base-blue-80: #0a3677;
+    --base-blue-90: #072552;
+    --fill-blue-faint: var(--base-blue-5);
+    --fill-blue-lightest: var(--base-blue-10);
+    --fill-blue-lighter: var(--base-blue-20);
+    --fill-blue-light: var(--base-blue-30);
+    --fill-blue: var(--base-blue-50);
+    --fill-blue-dark: var(--base-blue-60);
+    --fill-blue-darker: var(--base-blue-90);
+    --stroke-blue-faint: var(--base-blue-5);
+    --stroke-blue-lightest: var(--base-blue-10);
+    --stroke-blue-lighter: var(--base-blue-20);
+    --stroke-blue-light: var(--base-blue-30);
+    --stroke-blue: var(--base-blue-50);
+    --stroke-blue-dark: var(--base-blue-60);
+    --stroke-blue-darker: var(--base-blue-90);
+    --text-blue-faint: var(--base-blue-5);
+    --text-blue-lightest: var(--base-blue-10);
+    --text-blue-lighter: var(--base-blue-20);
+    --text-blue-light: var(--base-blue-30);
+    --text-blue: var(--base-blue-50);
+    --text-blue-dark: var(--base-blue-60);
+    --text-blue-darker: var(--base-blue-90);
+    --base-white-100: #ffffff;
+    --fill-white: var(--base-white-100);
+    --stroke-white: var(--base-white-100);
+    --text-white: var(--base-white-100);
+    --radius-none: 0px;
+    --radius-xs: 2px;
+    --radius-sm: 4px;
+    --radius-md: 6px;
+    --radius-lg: 8px;
+    --radius-xl: 16px;
+    --radius-2xl: 32px;
+    --radius-round: 512px;
+    --space-zero: 0px;
+    --space-4xs: 1px;
+    --space-3xs: 2px;
+    --space-2xs: 4px;
+    --space-xs: 6px;
+    --space-sm: 8px;
+    --space-md: 12px;
+    --space-lg: 16px;
+    --space-xl: 20px;
+    --space-2xl: 24px;
+    --space-3xl: 32px;
+    --space-4xl: 40px;
+    --space-5xl: 48px;
+    --space-6xl: 64px;
+    --font-size-xs: 10px;
+    --font-size-sm: 12px;
+    --font-size-md: 14px;
+    --font-size-lg: 16px;
+    --font-size-xl: 20px;
+    --font-size-2xl: 24px;
+    --font-size-3xl: 32px;
+    --font-size-4xl: 36px;
+    --line-height-xs: 14px;
+    --line-height-sm: 16px;
+    --line-height-md: 20px;
+    --line-height-lg: 24px;
+    --line-height-xl: 28px;
+    --line-height-2xl: 32px;
+    --fw-light: 300;
+    --fw-regular: 400;
+    --fw-medium: 500;
+    --fw-semibold: 600;
+    --fw-bold: 700;
+    --fw-extrabold: 800;
+    --fw-Black: 900;
+    --fw-thin: 100;
 }
 
 * {

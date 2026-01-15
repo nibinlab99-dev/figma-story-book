@@ -1,19 +1,10 @@
 import Button from './components/Button';
-import { useDesignTokens } from './tokens/useDesignTokens';
 
 function App() {
-    const { tokensLoaded, error } = useDesignTokens();
-
-    if (error) {
-        return <div>Error loading design tokens: {error}</div>;
-    }
-
-    if (!tokensLoaded) {
-        return <div>Loading design tokens...</div>;
-    }
-
     return (
         <div style={{ padding: '40px' }}>
+            <h1>Design Token System</h1>
+            <p>✅ Tokens loaded from static CSS!</p>
             <Button variant="primary" size="md" disabled>Label</Button>
             <Button variant="primary" size="lg">Label</Button>
         </div>

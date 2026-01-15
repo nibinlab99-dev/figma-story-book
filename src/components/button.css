@@ -1,6 +1,5 @@
 .btn {
-    font-family: var(--font-family-base);
-    font-weight: var(--font-weight-medium);
+    font-weight: var(--fw-medium);
     border: none;
     cursor: pointer;
     transition: all 0.2s ease;
@@ -33,10 +32,10 @@
 }
 
 .btn--primary {
-    background-color: var(--fill-blue);
-    color: var(--text-white);
+    background-color: var(--base-blue-50);
+    color: var(--base-white-100);
 }
 
-.btn--primary:hover {
-    background-color: var(--fill-blue-dark);
+.btn--primary:hover:not(:disabled) {
+    background-color: var(--base-blue-60);
 }
