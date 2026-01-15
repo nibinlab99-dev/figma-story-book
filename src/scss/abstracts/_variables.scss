@@ -1,5 +1,5 @@
 /* Design tokens - Auto-generated from Figma via GitHub */
-/* Last updated: 2026-01-15T10:33:03.689Z */
+/* Last updated: 2026-01-15T12:55:16.053Z */
 /* To update: run 'npm run tokens:generate' */
 
 :root {
@@ -38,6 +38,19 @@
     --fill-white: var(--base-white-100);
     --stroke-white: var(--base-white-100);
     --text-white: var(--base-white-100);
+    --base-grey-5: #f9fafb;
+    --base-grey-10: #f2f4f7;
+    --base-grey-20: #eaecf0;
+    --base-grey-30: #d0d5dd;
+    --base-grey-40: #98a2b3;
+    --base-grey-50: #667085;
+    --base-grey-60: #475467;
+    --base-grey-70: #344054;
+    --base-grey-80: #1d2939;
+    --base-grey-90: #101828;
+    --base-red-50: #ea1c1c;
+    --fill-red: var(--base.red.50);
+    --stroke-red: var(--base.red.50);
     --radius-none: 0px;
     --radius-xs: 2px;
     --radius-sm: 4px;
