@@ -1,0 +1,10 @@
+// 7-1 Pattern Main Entry Point
+
+// 1. Abstracts (Variables, Mixins, etc.)
+@use 'abstracts/variables';
+
+// 2. Base (Reset, Typography)
+@use 'abstracts/base';
+
+// 3. Components (Buttons, Cards, etc.)
+@use 'components/button';

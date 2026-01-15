@@ -71,24 +71,18 @@ async function generateTokensCSS() {
 /* Last updated: ${new Date().toISOString()} */
 /* To update: run 'npm run tokens:generate' */
 
-${cssVariables}
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-}
-`;
+${cssVariables}`;
         
-        const outputPath = path.join(__dirname, '../src/tokens.css');
+        const outputPath = path.join(__dirname, '../src/scss/abstracts/_variables.scss');
+        const outputDir = path.dirname(outputPath);
+
+        if (!fs.existsSync(outputDir)) {
+            fs.mkdirSync(outputDir, { recursive: true });
+        }
+
         fs.writeFileSync(outputPath, cssContent);
         
-        console.log('✅ Design tokens generated successfully at src/tokens.css');
+        console.log('✅ Design tokens generated successfully at src/scss/abstracts/_variables.scss');
     } catch (error) {
         console.error('❌ Error generating tokens:', error);
         process.exit(1);
