@@ -1,5 +1,5 @@
 /* Design tokens - Auto-generated from Figma via GitHub */
-/* Last updated: 2026-01-16T03:23:52.350Z */
+/* Last updated: 2026-01-16T04:30:28.528Z */
 /* To update: run 'npm run tokens:generate' */
 
 :root {
@@ -38,6 +38,36 @@
     --fill-white: var(--base-white-100);
     --stroke-white: var(--base-white-100);
     --text-white: var(--base-white-100);
+    --base-red-5: #fff6f6;
+    --base-red-10: #ffeeee;
+    --base-red-20: #fde6e6;
+    --base-red-30: #f8b0b0;
+    --base-red-40: #f57676;
+    --base-red-50: #ea1c1c;
+    --base-red-60: #c11717;
+    --base-red-70: #981212;
+    --base-red-80: #6f0d0d;
+    --base-red-90: #460808;
+    --base-blue-5: #fafcff;
+    --base-blue-10: #edf4fe;
+    --base-blue-20: #deebff;
+    --base-blue-30: #acccfb;
+    --base-blue-40: #4186ed;
+    --base-blue-50: #1369e9;
+    --base-blue-60: #1058c3;
+    --base-blue-70: #0d479d;
+    --base-blue-80: #0a3677;
+    --base-blue-90: #072552;
+    --base-green-5: #fafffc;
+    --base-green-10: #ecfaf4;
+    --base-green-20: #e0f5ec;
+    --base-green-30: #b2e9d1;
+    --base-green-40: #78dab0;
+    --base-green-50: #28b97b;
+    --base-green-60: #229b67;
+    --base-green-70: #1b7d53;
+    --base-green-80: #155f3f;
+    --base-green-90: #0e412b;
     --base-grey-5: #f9fafb;
     --base-grey-10: #f2f4f7;
     --base-grey-20: #eaecf0;
@@ -48,9 +78,47 @@
     --base-grey-70: #344054;
     --base-grey-80: #1d2939;
     --base-grey-90: #101828;
-    --base-red-50: #ea1c1c;
+    --base-white-5: #ffffff0d;
+    --base-white-10: #ffffff1a;
+    --base-white-20: #ffffff33;
+    --base-white-30: #ffffff4d;
+    --base-white-40: #ffffff66;
+    --base-white-50: #ffffff80;
+    --base-white-60: #ffffff99;
+    --base-white-70: #ffffffb3;
+    --base-white-80: #ffffffcc;
+    --base-white-90: #ffffffe6;
+    --base-white-100: #ffffff;
+    --base-black-5: #0000000d;
+    --base-black-10: #0000001a;
+    --base-black-20: #00000033;
+    --base-black-30: #0000004d;
+    --base-black-40: #00000066;
+    --base-black-50: #00000080;
+    --base-black-60: #00000099;
+    --base-black-70: #000000b3;
+    --base-black-80: #000000cc;
+    --base-black-90: #000000e6;
+    --base-black-100: #000000;
+    --fill-blue: var(--base-blue-50);
     --fill-red: var(--base-red-50);
+    --fill-green: var(--base-green-50);
+    --fill-grey: var(--base-grey-50);
+    --fill-white: var(--base-white-100);
+    --fill-black: var(--base-black-100);
+    --stroke-blue: var(--base-blue-50);
     --stroke-red: var(--base-red-50);
+    --stroke-green: var(--base-green-50);
+    --stroke-grey: var(--base-grey-50);
+    --stroke-white: var(--base-white-100);
+    --stroke-black: var(--base-black-100);
+    --text-default: var(--base-grey-90);
+    --text-white: var(--base-white-100);
+    --text-black: var(--base-black-100);
+    --text-link: var(--base-blue-50);
+    --text-danger: var(--base-red-50);
+    --text-success: var(--base-green-50);
+    --text-info: var(--base-blue-50);
     --radius-none: 0px;
     --radius-xs: 2px;
     --radius-sm: 4px;
