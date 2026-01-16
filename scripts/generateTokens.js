@@ -45,7 +45,9 @@ function convertTokensToCSS(tokens) {
             } else {
                 let tokenValue = value.value || value;
                 if (typeof tokenValue === 'string' && tokenValue.startsWith('{') && tokenValue.endsWith('}')) {
-                    const alias = tokenValue.slice(1, -1);
+                    const alias = tokenValue.slice(1, -1)
+                        .replace(/\./g, '-')  // Convert dots to hyphens
+                        .replace(/_/g, '-');  // Convert underscores to hyphens
                     tokenValue = `var(--${alias})`;
                 }
                 const cssVarName = prefix ? `${prefix}-${key}` : key;
