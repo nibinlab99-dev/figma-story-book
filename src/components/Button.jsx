@@ -4,12 +4,13 @@ export default function Button({
     variant = "primary",
     size = "md",
     disabled = false,
+    className = "",
     onClick,
     ...props
 }) {
     return (
         <button
-            className={`btn btn--${variant} btn--${size}`}
+            className={`btn btn--${variant} btn--${size} ${className}`}
             disabled={disabled}
             onClick={onClick}
             {...props}
